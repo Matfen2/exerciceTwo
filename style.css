@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: auto;
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("pict/batmanArkhamWallpaper.jpeg");
+}
+body .info {
+  margin: 160px auto;
+}
+body .info .row .col-lg-5 {
+  padding-left: 70px;
+}
+body .info .row .col-lg-5 h2 {
+  color: azure;
+  text-align: center;
+  text-shadow: 0 1px 0px #000000, 1px 0 0px #000000, 1px 2px 1px #000000, 2px 2px 3px #000000, 2px 2px 2px #ffffff, 2px 2px 0px #ffffff, 2px 2px 8px rgba(206, 206, 206, 0.13);
+}
+body .info .row .col-lg-5 .listGames {
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+body .info .row .col-lg-5 .listGames .img-fluid {
+  height: 200px;
+  opacity: 0.8;
+  cursor: pointer;
+  max-width: 150px;
+  margin-top: 10px;
+  border-radius: 10px;
+  transition: all 0.25ms ease;
+}
+body .info .row .col-lg-5 .listGames .img-fluid:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+body .info .row .col-lg-5 form {
+  justify-content: center;
+  text-align: center;
+  margin: 18px auto;
+}
+body .info .row .col-lg-5 form fieldset .d-flex {
+  color: azure;
+  max-width: 440px;
+  margin: auto;
+  padding-left: -15px;
+  text-shadow: 0 1px 0px #000000, 1px 0 0px #000000, 1px 2px 1px #000000, 2px 2px 3px #000000, 2px 2px 2px #ffffff, 2px 2px 0px #ffffff, 2px 2px 8px rgba(206, 206, 206, 0.13);
+}
+body .info .row .col-lg-5 form fieldset .d-flex h3 {
+  margin: auto;
+  display: block;
+}
+body .info .row .col-lg-5 form fieldset .d-flex select {
+  height: 30px;
+  margin-top: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+body .info .row .col-lg-5 form fieldset .d-flex select option {
+  margin-bottom: 40px;
+}/*# sourceMappingURL=style.css.map */
